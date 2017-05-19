@@ -1,0 +1,32 @@
+{
+  "name": "hl7-lex",
+  "version": "0.0.0",
+  "description": "Lex/Tokenize HL7 messages.",
+  "main": "lib/index.js",
+  "scripts": {
+    "lint": "eslint lib",
+    "test": "ava",
+    "posttest": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knpwrs/hl7-ast.git"
+  },
+  "keywords": [
+    "hl7",
+    "lex",
+    "tokenizer"
+  ],
+  "author": "Kenneth Powers <ken@kenpowers.net> (http://knpwrs)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/knpwrs/hl7-ast/issues"
+  },
+  "homepage": "https://github.com/knpwrs/hl7-ast#readme",
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "eslint": "^3.19.0",
+    "eslint-config-airbnb-base": "^11.2.0",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
