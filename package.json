@@ -24,8 +24,8 @@
   },
   "homepage": "https://github.com/knpwrs/hl7-ast#readme",
   "devDependencies": {
-    "ava": "^0.19.1",
-    "eslint": "^3.19.0",
+    "ava": "^0.22.0",
+    "eslint": "^4.5.0",
     "eslint-config-airbnb-base": "^11.2.0",
     "eslint-plugin-import": "^2.2.0"
   }
